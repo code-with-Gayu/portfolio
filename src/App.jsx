@@ -5,8 +5,8 @@ import './App.css';
 
 const App = () => {
   return (
-    <div id="Home">
-      {/* Navbar */}
+    <div id="Home" className="row">
+     <div className="col-sm-6 text-align-centre">
       <header>
         <nav className="navbar navbar-expand-lg" id="navbar-body">
           <div className="container">
@@ -55,6 +55,7 @@ const App = () => {
             </div>
           </div>
         </nav>
+        
       </header>
 
       {/* Hero Section */}
@@ -71,6 +72,7 @@ const App = () => {
           </a>
         </div>
       </section>
+    </div>
     </div>
   );
 };
